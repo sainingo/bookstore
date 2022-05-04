@@ -8,7 +8,7 @@ const FormList = () => (
     <form>
       <input type="text" placeholder="Book title" />
       <span className="panel-bg">Category</span>
-      <button className="add-book-btn">ADD BOOK</button>
+      <button type="button" className="add-book-btn">ADD BOOK</button>
     </form>
   </div>
 );
