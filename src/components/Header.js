@@ -1,10 +1,20 @@
 import React from 'react'
 
+import '../assets/header.css';
+
+
 const Header = () => {
   return (
-    <div>
-        <h1>Header goes heere</h1>
-    </div>
+    <header>
+     <div className='header-ul'>
+         <a href='#'>Bookstore CMS</a>
+        <ul>
+            <li>BOOKS</li>
+            <li>CATEGORIES</li>
+        </ul>
+        </div>
+        <span><i class="fa-solid fa-user"></i></span>
+    </header>
   )
 }
 
