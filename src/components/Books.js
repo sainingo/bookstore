@@ -1,30 +1,24 @@
 import React from 'react';
 
+import PropTypes from 'prop-types';
+
 import '../assets/book.css';
 
-const Books = () => (
-  <div className="book-container">
-    <div className="book-row1">
-      <span>Action</span>
-      <h2>The Hunger Games</h2>
-      <p>Suzanne collins</p>
-      <button type="button">Comments</button>
+const Books = (props) => {
+  const { id, author, title } = props;
+  return (
+    <li key={id}>
+      <p>{title}</p>
+      <p>{author}</p>
       <button type="button">Remove</button>
-      <button type="button">Edit</button>
-    </div>
+    </li>
+  );
+};
 
-    <div>
-      <span>metric</span>
-      <p>64%</p>
-      <span>completed</span>
-    </div>
-
-    <div>
-      <h4>CURRENT CHAPTERS</h4>
-      <p>Chapter 17</p>
-      <button type="button" className="update-progress">UPDATED PROGRESS</button>
-    </div>
-  </div>
-);
+Books.propTypes = {
+  id: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+};
 
 export default Books;
