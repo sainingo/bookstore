@@ -23,17 +23,21 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
+- git clone https://github.com/sainingo/bookstore.git
+- cd bookstore
+- npm start
+
 ### Install
--npm install
+- npm install
 
 ### Usage
--npm start
+- npm start
 
 ### Run tests
--npm run test
+- npm run test
 
 ### Deployment
--npm run build
+- npm run build
 
 
 
