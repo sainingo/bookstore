@@ -7,9 +7,15 @@ header {
     gap: 20px;
 }
 
+.logo {
+    font-size: 2.3rem;
+    margin-left: 40px;
+    color: blue;
+}
+
 a {
     text-decoration: none;
-    font-size: 2.3rem;
+    color: #000;
 }
 
 .header-ul {
@@ -23,7 +29,7 @@ ul {
     gap: 20px;
 }
 
-span {
+.header-span {
     border-radius: 50%;
     border: 1px solid lightgray;
     padding: 10px 15px;

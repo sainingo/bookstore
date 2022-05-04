@@ -1,19 +1,20 @@
+import { Routes, Route} from 'react-router-dom';
 import './App.css';
 import BookList from './components/BookList';
-import Books from './components/Books';
 import Category from './components/Category';
 import FormList from './components/FormList';
 import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-      <Books />
-      <BookList />
+      <Routes>
+      <Route path='/' element={<BookList />} />
+      <Route path='/category' element={<Category />} />
+      </Routes>
       <FormList />
-      <Category />
-    </div>
+      </>
   );
 }
 

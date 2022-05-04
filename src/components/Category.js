@@ -2,7 +2,9 @@ import React from 'react'
 
 const Category = () => {
   return (
-    <div>Category</div>
+    <div>
+      <button>Check Status</button>
+    </div>
   )
 }
 
