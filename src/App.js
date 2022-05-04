@@ -1,4 +1,4 @@
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import BookList from './components/BookList';
 import Category from './components/Category';
@@ -10,11 +10,11 @@ function App() {
     <>
       <Header />
       <Routes>
-      <Route path='/' element={<BookList />} />
-      <Route path='/category' element={<Category />} />
+        <Route path="/" element={<BookList />} />
+        <Route path="/category" element={<Category />} />
       </Routes>
       <FormList />
-      </>
+    </>
   );
 }
 
