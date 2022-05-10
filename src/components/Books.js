@@ -5,11 +5,13 @@ import PropTypes from 'prop-types';
 import '../assets/book.css';
 
 const Books = (props) => {
-  const { id, author, title } = props;
+  const {
+    id, author, title, category,
+  } = props;
   return (
     <div className="book-container">
       <div key={id} className="book-row1">
-        <span>Action</span>
+        <span>{category}</span>
         <h2>{title}</h2>
         <p>{author}</p>
         <button type="button">Comments</button>
@@ -36,6 +38,7 @@ Books.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
 };
 
 export default Books;
