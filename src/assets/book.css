@@ -1,0 +1,33 @@
+.book-container {
+  border-radius: 4px;
+  border: 1px solid rgb(179, 177, 177);
+  margin: 80px 80px 20px 80px;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15rem;
+  align-items: center;
+}
+
+.book-row1 {
+  margin-left: 10px;
+}
+
+.book-row1 > button {
+  color: blue;
+  background-color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.update-progress {
+  color: #fff;
+  background-color: blue;
+  padding: 8px 18px;
+  width: 12rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
