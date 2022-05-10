@@ -1,54 +1,79 @@
-# BookStore React App
-> This is a bookstore app created using react & redux.
+# BookStore
+
+> BookStore is project built using React and redux.
 
 
-## Built With
+Additional description about the project and its features.
 
+# Built With
+
+### Major languages
+- HTML
+- CSS
+- JS
+- JSX
+
+### Frameworks/Libraries
 - React
-- Git & Gitflow 
-- Redux
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Click here](https://livedemo.com/) 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+```
+git clone git@github.com:sainingo/bookstore
+
+cd bookstore
+
+npm install 
+
+npm start 
+```
 
 ### Prerequisites
-- Have Node installed
-- Have Vscode installed
-
+```
+node modules 
+```
 ### Setup
 
-### Install
--npm install
+In the project directory, you can run:
 
-### Usage
--npm start
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Install
 
 ### Run tests
--npm run test
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### Deployment
--npm run build
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
-
-- Github: https://github.com/sainingo
-- Linkedin: https://www.linkedin.com/in/sainingo/
-- Twitter: https://twitter.com/saningoInn
-
+- GitHub: [sainingo](https://github.com/sainingo)
 
 
 ## 🤝 Contributing
