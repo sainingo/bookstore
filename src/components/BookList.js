@@ -14,7 +14,7 @@ const BookList = () => {
   let template = null;
 
   if (loading) {
-    template = <h2>loading....</h2>;
+    template = <h2> loading ....</h2>;
   } else {
     template = books.map((book) => (
       <Books
