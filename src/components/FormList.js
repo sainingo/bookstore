@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/books';
 import '../assets/Form.css';
+import { registerNewBook } from '../redux/books/books';
 
 const FormList = () => {
   const dispatch = useDispatch();
@@ -10,12 +10,16 @@ const FormList = () => {
     e.preventDefault();
     const { title, author, category } = e.target.elements;
     const newBook = {
+      item_id: Math.floor((Math.random() * 100) + 1),
       title: title.value,
       author: author.value,
       category: category.value,
     };
 
-    dispatch(addBook(newBook));
+    dispatch(registerNewBook(newBook));
+    title.value = '';
+    author.value = '';
+    category.value = '';
   };
 
   return (
