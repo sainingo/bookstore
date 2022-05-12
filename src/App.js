@@ -16,6 +16,7 @@ function App() {
           element={(
             <>
               <BookList />
+              <hr className="hr-line" />
               <FormList />
             </>
 )}

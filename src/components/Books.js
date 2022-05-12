@@ -37,7 +37,7 @@ const Books = (props) => {
         </div>
       </div>
       <div>
-        <h4>CURRENT CHAPTERS</h4>
+        <h4 className="h4-chapter">CURRENT CHAPTERS</h4>
         <p>Chapter 17</p>
         <button type="button" className="update-progress">UPDATED PROGRESS</button>
       </div>
