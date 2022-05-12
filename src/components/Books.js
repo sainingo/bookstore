@@ -26,8 +26,7 @@ const Books = (props) => {
         <button type="button">Edit</button>
       </div>
 
-      <div>
-        <span>metric</span>
+      <div className="middle-data">
         <p>64%</p>
         <span>completed</span>
       </div>
