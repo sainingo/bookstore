@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
+// import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import { removeBook } from '../redux/books/books';
+import progress from '../assets/progress.png';
 
 import '../assets/book.css';
 
@@ -27,10 +30,12 @@ const Books = (props) => {
       </div>
 
       <div className="middle-data">
-        <p>64%</p>
-        <span>completed</span>
+        <img src={progress} alt="progress" />
+        <div className="percent">
+          <p>64%</p>
+          <span>completed</span>
+        </div>
       </div>
-
       <div>
         <h4>CURRENT CHAPTERS</h4>
         <p>Chapter 17</p>

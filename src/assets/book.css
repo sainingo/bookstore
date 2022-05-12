@@ -1,11 +1,12 @@
 .book-container {
   border-radius: 4px;
-  border: 1px solid rgb(179, 177, 177);
+  border: 1px solid rgb(228, 222, 222);
   margin: 80px 80px 20px 80px;
   padding: 10px 20px;
   display: flex;
   gap: 15rem;
   align-items: center;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .book-row1 {
@@ -22,6 +23,11 @@
   margin: 0 5px;
 }
 
+.book-row1 > button:nth-child(odd) {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
 .update-progress {
   color: #fff;
   background-color: blue;
@@ -33,12 +39,18 @@
 }
 
 .middle-data {
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
-  padding: 0 3rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-.middle-data > p {
-  font-size: 2.4rem;
-  margin-bottom: 4px;
+.middle-data > img {
+  width: 100px;
+  height: 100px;
+}
+
+.percent > p {
+  font-size: 2.3rem;
+  margin-bottom: 0;
+  margin-top: 0;
 }
