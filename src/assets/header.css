@@ -29,6 +29,12 @@ ul {
   gap: 20px;
 }
 
+ul li:last-child {
+  font-weight: 100;
+  color: gray;
+  opacity: 0.5;
+}
+
 .header-span {
   border-radius: 50%;
   border: 1px solid lightgray;

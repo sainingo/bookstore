@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
+import progress from '../assets/progress.png';
 
 import '../assets/book.css';
 
@@ -26,14 +27,15 @@ const Books = (props) => {
         <button type="button">Edit</button>
       </div>
 
-      <div>
-        <span>metric</span>
-        <p>64%</p>
-        <span>completed</span>
+      <div className="middle-data">
+        <img src={progress} alt="progress" />
+        <div className="percent">
+          <p>64%</p>
+          <span>completed</span>
+        </div>
       </div>
-
       <div>
-        <h4>CURRENT CHAPTERS</h4>
+        <h4 className="h4-chapter">CURRENT CHAPTERS</h4>
         <p>Chapter 17</p>
         <button type="button" className="update-progress">UPDATED PROGRESS</button>
       </div>

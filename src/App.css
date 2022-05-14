@@ -3,3 +3,10 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+.hr-line {
+  width: 90%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  opacity: 0.3;
+}
