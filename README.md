@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Click here](https://livedemo.com/) 
+[Click here](https://react-redux-books.netlify.app/) 
 
 ## Getting Started
 
